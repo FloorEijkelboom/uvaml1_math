@@ -9,4 +9,4 @@ Mathematics for AI
    :maxdepth: 2
    :caption: Contents
 
-   notebooks/notes
+   notebooks/topic_1/top1
