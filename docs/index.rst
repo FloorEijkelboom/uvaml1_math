@@ -9,4 +9,4 @@ Mathematics for AI
    :maxdepth: 2
    :caption: Contents
 
-   notebooks/topic_1/top1
+   notebooks/topic_1/tutorial1_regular_group_convolutions.ipynb
