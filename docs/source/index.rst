@@ -9,7 +9,4 @@ Mathematics for AI
    :maxdepth: 2
    :caption: Contents
 
-   basic_mathematics
-   calculus
-   linear_algebra
-   vector_calculus
+   notebooks/notes
