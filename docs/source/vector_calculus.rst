@@ -1,5 +1,5 @@
 Vector Calculus
-=====
+===============
 
 Foundations
 -----------
