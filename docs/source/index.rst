@@ -2,7 +2,9 @@ Mathematics for AI
 ==================
 
 
-Hi there! Welcome to the Machine Learning 1 (ML1) course here at MSc Artificial Intelligence from
+Hi there!
+
+Welcome to the Machine Learning 1 (ML1) course here at MSc Artificial Intelligence from
 the University of Amsterdam. These notes are provided to help you familiarize yourself with the
 ‘prior knowledge’ needed to follow the ML1 course. In practice, however, you will probably not know
 all the material here, and please do not feel discouraged by that. We advise you to read through
@@ -28,4 +30,7 @@ Floor & Tin
    :maxdepth: 2
    :caption: Contents
 
-   notebooks/topic_1/topic_1.ipynb
+   linear_algebra
+
+
+
