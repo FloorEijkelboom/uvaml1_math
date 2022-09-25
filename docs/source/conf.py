@@ -58,9 +58,41 @@ mathjax3_config = {
             "vx": '{\\bf x}',
             "vy": '{\\bf y}',
             "vz": '{\\bf z}',
+            # bold capital letters for matrices
+            "mA": '{\\bf A}',
+            "mB": '{\\bf B}',
+            "mC": '{\\bf C}',
+            "mD": '{\\bf D}',
+            "mE": '{\\bf E}',
+            "mF": '{\\bf F}',
+            "mG": '{\\bf G}',
+            "mH": '{\\bf H}',
+            "mI": '{\\bf I}',
+            "mJ": '{\\bf J}',
+            "mK": '{\\bf K}',
+            "mL": '{\\bf L}',
+            "mM": '{\\bf M}',
+            "mN": '{\\bf N}',
+            "mO": '{\\bf O}',
+            "mP": '{\\bf P}',
+            "mQ": '{\\bf Q}',
+            "mR": '{\\bf R}',
+            "mS": '{\\bf S}',
+            "mT": '{\\bf T}',
+            "mU": '{\\bf U}',
+            "mV": '{\\bf V}',
+            "mW": '{\\bf W}',
+            "mX": '{\\bf X}',
+            "mY": '{\\bf Y}',
+            "mZ": '{\\bf Z}',
         },
     }
 }
+
+numfig = True
+math_numfig = True
+numfig_secnum_depth = 2
+math_eqref_format = "{number}"
 
 
 
@@ -78,3 +110,12 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# Add any paths that contain custom static files (such as style sheets) here,
+# relative to this directory. They are copied after the builtin static files,
+# so a file named "default.css" will overwrite the builtin "default.css".
+html_static_path = ['_static']
+
+
+def setup(app):
+    app.add_css_file('style.css')
