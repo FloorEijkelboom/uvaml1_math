@@ -550,7 +550,63 @@ Let’s briefly summarize important information regarding matrix-matrix multipli
 Change of Basis
 ---------------
 
+In the previous section, the elements of the matrix were determined by how they transform the basis
+vectors. Let’s take a closer look at two different basis in :math:`\R^2`: a canonical basis :math:`\{\vb_1, \vb_2\}` and an
+arbitrary non-canonical basis :math:`\{\vd_1, \vd_2\}` whose elements can be expressed in the canonical basis as:
 
+.. math::
+    \vd_1 = \matrix{3/5 \\ 1/3}, \quad \vd_2 = \matrix{1/3 \\ 1}
+    :label: example-non-canonical-basis
+
+The two bases are visualized in the figure below.
+
+.. image:: /figures/linear_algebra/change_of_basis.png
+    :alt: change_of_basis
+    :align: center
+
+We can think of a basis as a language we use to explicitly write vectors and operators as matrices.
+However, the way an arbitrary operator :math:`\mA` transforms a vector :math:`\vv` shouldn’t depend on the basis we
+use. Therefore, we must adjust the entries of the matrix depending on which basis we use, because as
+described before, rows of the matrix correspond to the vectors to which the basis vectors transform
+to. So let’s try to motivate intuitively how we can transform a matrix :math:`\mA` that is written in the
+canonical basis :math:`\{\vb_1, \vb_2\}` into a matrix :math:`\mA'` which describes the same operation, but in the new basis
+:math:`\{\vd_1, \vd_2\}`. The procedure is as follows:
+
+1. We take a vector from the written using vectors from the new basis and translate [#f6]_ it into a language of the old basis using a transformation :math:`\mS`.
+2. We act on this translated vector with the operator :math:`\mA` expressed in the canonical basis.
+3. We convert the transformed vector back to the language of the new basis using the inverse transformation :math:`\mS\inv`.
+
+So, in total, we can express the change of basis of a matrix as:
+
+.. math::
+    \mA' = \mS\inv \mA \mS
+    :label: change-of-basis
+
+Next question is, what does the transformation :math:`\mS` between languages correspond to? Well, if we speak
+the language of the new basis, then we would express the vectors of the new basis as :math:`\vd_1 = \matrix{1 & 0}^T`
+and :math:`\vd_2 = \matrix{0 & 1}^T`. However, if we want to express these new vectors in the old canonical basis, then
+we would write them in the form of equation :eq:`example-non-canonical-basis`. Therefore, the transformation :math:`\mS` for
+this example is equal to:
+
+.. math::
+    \mS = \matrix{3/5 & 1/3 \\ 1/3 & 1}
+
+The inverse transformation can be found and is equal to:
+
+.. math::
+    \mS\inv = \matrix{45/22 & -15/22 \\ -15/22 & 27/22}
+
+which is not the nicest expression, but we can transform **any** operator :math:`\mA` written in the canonical
+basis :math:`\{\vb_1, \vb_2\}` into a matrix :math:`\mA'` written in the :math:`\{\vd_1, \vd_2\}` basis.
+
+We can check whether the transformation :math:`\mS\inv` makes sense by for example applying it on the vector :math:`\vd_1` written
+in the canonical basis:
+
+.. math::
+    \mS\inv \vd_1 = \matrix{45/22 & -15/22 \\ -15/22 & 27/22} \matrix{1/3 \\ 1} = \matrix{1 \\ 0}
+
+which is exactly the expected result, because if we speak the language of the :math:`\{\vd_1, \vd_2\}` basis, we
+would write the vector :math:`\vd_1` as :math:`\vd_1 = \matrix{1 & 0}^T`.
 
 
 
@@ -563,3 +619,4 @@ Change of Basis
 .. [#f3] Letter :math:`T` stands for the transpose operation, more information can be found `here <https://en.wikipedia.org/wiki/Transpose>`_.
 .. [#f4] You should find out that :math:`f` is indeed linear, while :math:`g` isn’t.
 .. [#f5] This is actually a very general result, all linear mappings (in finite dimensional vector spaces) can be written as matrix multiplication. More info can be found `here <https://math.stackexchange.com/questions/2547357/is-a-linear-map-transformation-always-a-matrix-multiplication>`_.
+.. [#f6] In this context, translation is meant in the context of the language, not as a spatial translation.
