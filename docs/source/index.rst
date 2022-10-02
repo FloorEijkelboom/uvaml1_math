@@ -32,6 +32,7 @@ Floor & Tin
 
    linear_algebra
    calculus
+   statistical
    derivative
 
 

@@ -28,7 +28,7 @@ As we will look at later in this section, we have :math:`m \times n` derivatives
 
 More important, perhaps, is the question of why we care about derivatives at all.
 In the context of machine learning, we are often very interested in a function that describes how well our model performs given our parameters.
-What we mean with 'doing well' is reflected in \autoref{sec:statlearning}, but for now, we presume that we have some measure of 'doing well'.
+What we mean with 'doing well' is reflected in :ref:`Statistical Learning`, but for now, we presume that we have some measure of 'doing well'.
 It is common to instead of maximizing performance, minimize the error we make, which are equivalent views on the same thing.
 Let us, for the sake of simplicity, say that our model parameter is given by :math:`x` and our error rate is given by :math:`f(x) = x^2 + 4x -2`:
 
