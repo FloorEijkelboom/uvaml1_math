@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Math notebooks'
+project = 'Math (Machine Learning 1, UvA)'
 copyright = '2021, Floor Eijkelboom'
 author = 'Floor Eijkelboom'
 
