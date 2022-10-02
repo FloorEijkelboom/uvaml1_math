@@ -20,7 +20,7 @@ If you see any errors in this document, please write us and we will make sure to
 as possible. Moreover, feel free to share this document with whoever might profit from it. Good
 luck with your studies!
 
-Floor & Tin
+Floor & Tin & Gabriele
 
 .. note::
 
@@ -31,6 +31,9 @@ Floor & Tin
    :caption: Contents
 
    linear_algebra
+   calculus
+   statistical
+   derivative
 
 
 
