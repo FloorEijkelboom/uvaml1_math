@@ -23,7 +23,7 @@ Standard derivatives
 - :math:`f(x) = \sin x \implies f'(x) = \cos x`,
 - :math:`f(x) = \cos x \implies f'(x) = - \sin x`.
 
-Moreover, it is useful to remember special cases of the second rule, e.g. :math:`f(x) = x \implies f'(x) = 0`,
+Moreover, it is useful to remember special cases of the second rule, e.g. :math:`f(x) = x \implies f'(x) = 1`,
 :math:`f(x) = ax \implies f'(x) = a`, and  :math:`f(x) = \sqrt{x} \implies f'(x) = \frac{1}{2\sqrt{x}}`.
 
 Derivative of combined functions
