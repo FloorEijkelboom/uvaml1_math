@@ -28,12 +28,13 @@ Floor & Tin & Gabriele
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents
+   :caption: Topics
 
-   linear_algebra
-   calculus
-   statistical
-   derivative
+   topics/calculus
 
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Resources
 
+   resources/derivative_rules
