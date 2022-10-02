@@ -1,3 +1,6 @@
+
+.. _Linear Algebra:
+
 Linear Algebra
 ==============
 

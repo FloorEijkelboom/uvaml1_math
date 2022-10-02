@@ -1,3 +1,6 @@
+
+.. _Calculus:
+
 Calculus
 ========
 
@@ -59,7 +62,7 @@ We will then steadily work our way up to higher-dimensional derivatives with the
 
 We do now want to spend too much time on basic differentiation techniques and rather give you a general approach to differentiation from which things such as the sum rule, product rule,
 chain rule, et cetera, will follow directly.
-If you need a refresher on the basic derivative rules, we included them in \autoref{appendix:deriv_rules}.
+If you need a refresher on the basic derivative rules, we included them in :ref:`Derivative Rules`.
 Let us now dive into the actual derivatives!
 
 Univariate derivatives

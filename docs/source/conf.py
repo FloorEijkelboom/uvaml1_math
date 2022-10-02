@@ -14,7 +14,11 @@ version = '0.1.0'
 extensions = [
 	'nbsphinx',
 	'sphinx.ext.mathjax',
+   'sphinx.ext.autosectionlabel',
 ]
+
+# Make sure the target is unique
+autosectionlabel_prefix_document = True
 
 
 mathjax_path = 'https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
