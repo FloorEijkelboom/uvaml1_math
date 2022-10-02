@@ -31,6 +31,7 @@ Floor & Tin
    :caption: Contents
 
    linear_algebra
+   calculus
 
 
 
