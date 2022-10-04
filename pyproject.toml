@@ -4,5 +4,5 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "uvaml1-math"
-authors = [{name = "Floor Eijkelboom", email = "eijkelboommfloor@gmail.com"}]
+authors = [{name = "Floor Eijkelboom", email = "eijkelboomfloor@gmail.com"}]
 dynamic = ["version", "description"]

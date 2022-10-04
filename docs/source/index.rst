@@ -1,6 +1,12 @@
 Mathematics for AI
 ==================
 
+| *Course website*: https://uvaml1.github.io/
+| *Repository*: https://github.com/FloorEijkelboom/uvaml1_math
+| *Authors*: Floor Eijkelboom and Tin Hadži Veljković
+
+.. note::
+   This project is under active development.
 
 Hi there!
 
@@ -20,11 +26,6 @@ If you see any errors in this document, please write us and we will make sure to
 as possible. Moreover, feel free to share this document with whoever might profit from it. Good
 luck with your studies!
 
-Floor & Tin & Gabriele
-
-.. note::
-
-   This project is under active development.
 
 .. toctree::
    :maxdepth: 2

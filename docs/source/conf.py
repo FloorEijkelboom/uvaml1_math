@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'Math (Machine Learning 1, UvA)'
-copyright = '2021, Floor Eijkelboom'
+project = 'Math (MSc AI, UvA)'
+copyright = '2022, Floor Eijkelboom'
 author = 'Floor Eijkelboom'
 
-release = '0.1'
-version = '0.1.0'
+release = '1.0'
+version = '1.0.0'
 
 # -- General configuration
 
