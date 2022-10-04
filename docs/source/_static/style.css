@@ -1,8 +1,3 @@
-/*.wy-nav-content {*/
-/*    max-width: 75% !important;*/
-/*}*/
-
-/* there is a bug in read_the_docs style: equation numbers are rendered before the equation. This should fix it.*/
-span.eqno {
-    float: right;
+.wy-nav-content {
+    max-width: 75% !important;
 }
